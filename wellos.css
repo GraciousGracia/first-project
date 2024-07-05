@@ -1,0 +1,865 @@
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+    height: 85vh;
+}
+nav{
+    height: 30vh;
+    width: 100%;
+    box-shadow: 0px 2px 10px rgb(0, 0, 0);
+}
+.display{
+    display: flex;
+}
+#side-nav{
+    height: 75vh;
+    width: 15%;
+    box-shadow: 0px 2px 10px green;
+    margin-top: 50px;
+    margin-left: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.write p{
+    font-size: 30px;
+    margin-top: 150px;
+    font-style: italic;
+    text-shadow: 0px 2px 10px rgb(0, 0, 0);
+    text-align: center;
+}
+#logo{
+      justify-content: center;
+      display: flex;
+}
+#logo img{
+     height: 20vh;
+     width: 30%;
+     margin-top: 30px;
+}
+.list {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-left: 50%;
+    margin-bottom: -100px;
+}
+.list a{
+    height: 50px;
+    font-size:15px;
+    margin-top: 30px;
+    border: 0cm;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: dashed;
+    color: black;
+}
+.logo h2 {
+    color: green;
+    font-family: cursive;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    /* gap: 30px; */
+    /* margin-top: -14%; */
+}
+#back2 img{
+    height: 55vh;
+    width: 80%;
+    margin-left: 30%;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgb(0, 0, 0);
+}
+#back img {
+    height: 55vh;
+    width: 110%;
+    margin-left: 30%;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgb(0, 0, 0);
+}
+#note {
+    font-size: 20px;
+}
+.dpt{
+    height: 55vh;
+    width: 30%;
+    background-color: rgb(170, 167, 167);
+    margin-top: 10%;
+    margin-right: 40px;
+    box-shadow: 0px 2px 5px green;
+    border-radius: 5px;
+    margin-left: 25%;
+}
+.dpt i {
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 80px;
+}
+#courses button{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 15px;
+    background: none;
+    border: 0px;
+    cursor: pointer;
+}
+#courses :hover{
+    background-color: rgb(204, 195, 195);
+}
+.flex {
+    display: flex;
+}
+.img1 img {
+    height: 35vh;
+    width: 70%;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 15%;
+    box-shadow: 0px 2px 5px black;
+    
+}
+.img2 img{
+    height: 35vh;
+    width: 70%;
+    border-radius: 5px;
+    margin-top: 30px;
+    box-shadow: 0px 2px 5px black;
+    margin-left: 15%;
+}
+.img3 img{
+    height: 35vh;
+    width: 70%;
+    border-radius: 5px;
+    margin-top: 30px;
+    box-shadow: 0px 2px 5px black;
+    margin-left: 15%;
+    
+}
+.img4 img{
+    height: 35vh;
+    width: 70%;
+    border-radius: 5px;
+    margin-top: 30px;
+    box-shadow: 0px 2px 5px black;
+    margin-left: 15%;
+    
+}
+.img5 img{
+    height: 35vh;
+    width: 70%;
+    border-radius: 5px;
+    margin-top: 30px;
+    box-shadow: 0px 2px 5px black;
+    margin-left: 15%;
+    
+}
+.img6 img{
+    height: 35vh;
+    width: 70%;
+    border-radius: 5px;
+    margin-top: 30px;
+    box-shadow: 0px 2px 5px black;
+    margin-left: 15%;
+    
+}
+.img7 img{
+    height: 35vh;
+    width: 70%;
+    border-radius: 5px;
+    margin-top: 30px;
+    box-shadow: 0px 2px 5px black;
+    margin-left: 15%;
+}
+#details1 {
+    height: 55vh;
+    width: 30%;
+    background-color: rgb(173, 172, 172);
+    margin-top: 10%;
+    box-shadow: 0px 2px 5px green;
+    display: none;
+    margin-left: 2%;
+}
+#details2 {
+    background-color: rgb(173, 172, 172);
+    height: 55vh;
+    width: 30%;
+    display: none;
+    margin-top: 10%;
+    box-shadow: 0px 2px 5px green;
+    margin-left: 2%;
+}
+#details3 {
+    background-color: rgb(173, 172, 172);
+    height: 55vh;
+    width: 30%;
+    display: none;
+    margin-top: 10%;
+    box-shadow: 0px 2px 5px green;
+    margin-left: 2%;
+}
+#details4 {
+    background-color: rgb(173, 172, 172);
+    height: 55vh;
+    width: 30%;
+    display: none;
+    margin-top: 10%;
+    box-shadow: 0px 2px 5px green;
+    margin-left: 2%;
+}
+#details5 {
+    background-color: rgb(173, 172, 172);
+    height: 55vh;
+    width: 30%;
+    display: none;
+    margin-top: 10%;
+    box-shadow: 0px 2px 5px green;
+    margin-left: 2%;
+}
+#details6 {
+    background-color: rgb(173, 172, 172);
+    height: 55vh;
+    width: 30%;
+    display: none;
+    margin-top: 10%;
+    box-shadow: 0px 2px 5px green;
+    margin-left: 2%;
+}
+#details7 {
+    background-color: rgb(173, 172, 172);
+    height: 55vh;
+    width: 30%;
+    display: none;
+    margin-top: 10%;
+    box-shadow: 0px 2px 5px green;
+    margin-left: 2%;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-style: oblique;
+}
+#tutors{
+   background-color: gray;
+   height: 60px;
+   width: 50%;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: white;
+   font-style: italic;
+   font-weight: lighter;
+   margin-left: 30%;
+   margin-top: 100px;
+   border-radius: 5px;
+}
+.tutor h1 {
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+    text-shadow: 0px 10px 10px white;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: lighter;
+}
+#allphoto{
+    display: flex;
+}
+.photo img{
+    height: 30vh;
+    width: 85%;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 1px solid green;
+    margin-left: 20px;
+    box-shadow: 0px 1px 10px green;
+}
+#div1,#div2,#div3,#div4,#div5 {
+    height: 51vh;
+    width: 40%;
+    margin-left: 30px;
+    margin-top: 50px;
+    border-radius: 7px;
+}
+.allname h1{
+    font-size:20px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: 0px 1px 10px black;
+}
+#credited h2{
+    color: black;
+    font-size: 40px;
+    margin-left: 25%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-top: 40px;
+    border-bottom: 1px solid black;
+}
+.cert h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    margin-top: 30px;
+}
+#bodies {
+    display: flex; 
+    margin-left: 20%;
+    margin-top: 50px;
+    gap: 30px;
+}
+.agencies img{
+    height: 18vh;
+    width: 20%;
+    box-shadow: 0px 2px 10px black;
+    border-radius: 5px;
+}
+footer{
+    background-color: black;
+    height: 90vh;
+    width: 100%;
+    margin-top: 85px;
+}
+#email p {
+    text-align: start;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: white;
+    padding: 50px 60px;
+    font-weight: bold;
+    font-style: italic;
+}
+.accord {
+    display: flex;
+}
+.more {
+    display: flex;
+}
+#extra a{
+    color: white;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 64px;
+    text-decoration: dashed;
+    cursor: pointer;
+}
+.social a{
+    color: white;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    text-decoration: dashed;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 45%;
+}
+#inputflex{
+    display: flex;
+}
+form{
+margin-top: 8%;
+margin-left: 8%;
+border-bottom: 3px solid grey;
+}
+input{
+    padding: 8px;
+    width: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.send button{
+    height: 32px;
+    width: 100px;
+    margin-top: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px;
+}
+.send :hover{
+    background-color: rgb(179, 178, 178);
+    transition: 1s;
+}
+@media screen and (max-width:768px) and (min-width:481px){
+    nav{
+        height: 20vh;
+        width: 100%;
+        box-shadow: 0px 2px 10px rgb(0, 0, 0);
+    }
+    #logo img{
+        height: 15vh;
+        width: 30%;
+    }
+    .display{
+        display: flex;
+        flex-direction: column;
+    }
+    #side-nav{
+        height: 20vh;
+        width: 97%;
+        box-shadow: 0px 2px 10px green;
+        margin-top: 50px;
+        margin-left: 10px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+    }
+    .list {
+        display: flex;
+        gap: 45px;
+        flex-direction: row;
+    }
+    .list a {
+        font-family: sans-serif;
+        font-size: 15px;
+        transform: translate(140px,20px);
+    }
+    .list :hover {
+        background-color: transparent;
+        color: green;
+    }
+    .write p{
+        font-size: 20px;
+        margin-top: 20px;
+        font-style: italic;
+        text-shadow: 0px 2px 10px rgb(0, 0, 0);
+        text-align: center;
+    }
+    .image {
+        display: flex;
+        justify-content: center;
+        /* gap: 30px; */
+        margin-top: 25px;
+    }
+    #back2 img{
+        height: 40vh;
+        width: 67%;
+        margin-left: 20%;
+        border-radius: 5px;
+        box-shadow: 0px 2px 10px rgb(0, 0, 0);
+    }
+    #back img {
+        height: 40vh;
+        width: 100%;
+        margin-left: 30%;
+        border-radius: 5px;
+        box-shadow: 0px 2px 10px rgb(0, 0, 0);
+    }
+    .dpt{
+        height: 50vh;
+        width: 40%;
+        background-color: rgb(170, 167, 167);
+        margin-top: 10%;
+        margin-right: 40px;
+        box-shadow: 0px 2px 5px green;
+        border-radius: 5px;
+        margin-left: 10%;
+    }
+    .dpt i {
+        font-size: 17px;
+        font-style: italic;
+        margin-left: 40px;
+        font-weight: bold;
+    }
+    #courses button{
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: oblique;
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-top: 15px;
+        background: none;
+        border: 0px;
+        cursor: pointer;
+    }
+    #note {
+        font-size: 15px;
+        margin-bottom: -20px;
+        font-weight: bolder;
+    }
+    #details1,#details2,#details3,#details4,#details5,#details6,#details7 {
+        height: 50vh;
+        width: 50%;
+        background-color: rgb(173, 172, 172);
+        margin-top: 10%;
+        box-shadow: 0px 2px 5px green;
+        display: none;
+        margin-left: 2%;
+    }
+    .info {
+        display: flex;
+        flex-direction: column;
+        margin-top: -3px;
+        margin-left: 10px;
+    }
+    .info li {
+        font-size: 15px;
+        list-style: none;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+    #allphoto{
+        display: flex;
+    }
+    .photo img{
+        height: 17vh;
+        width: 80%;
+        border-radius: 50%;
+        margin-top: 20px;
+        border: 1px solid green;
+        margin-left: 20px;
+        box-shadow: 0px 1px 10px green;
+    }
+    #div1,#div2,#div3,#div4,#div5 {
+        height: 51vh;
+        width: 40%;
+        margin-left: 0px;
+        margin-top: 50px;
+        border-radius: 7px;
+    }
+    .allname h1{
+        font-size:13px;
+        color: black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: lighter;
+        text-align: center;
+        margin-top: 30px;
+        text-shadow: 0px 1px 10px black;
+    }
+    #credited h2{
+        color: black;
+        font-size: 25px;
+        transform: translate(-100px);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        margin-top: 40px;
+        border-bottom: 1px solid black;
+    }
+    .cert h2{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        text-align: center;
+        font-style: italic;
+        margin-top: 30px;
+    }
+    .agencies img{
+        height: 18vh;
+        width: 23%;
+        box-shadow: 0px 2px 10px black;
+        border-radius: 5px;
+    }
+    #bodies {
+        display: flex; 
+        margin-left: 7%;
+        margin-top: 50px;
+        gap: 30px;
+    }
+    footer{
+        background-color: black;
+        height: 80vh;
+        width: 100%;
+        margin-top: 95px;
+    }
+    #email p {
+        text-align: start;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 25px;
+        color: white;
+        padding: 50px 60px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    form{
+        height: 20px;
+        margin-top: 8%;
+        margin-left: 2%;
+        border-bottom: 3px solid grey;
+        }
+    input{
+        padding: 8px;
+        width: 120%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+    }
+    .send button{
+        height: 27px;
+        width: 80px;
+        margin-top: 8px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 17px;
+    }
+}
+@media screen and (max-width:480px) and (min-width:360px){
+    nav{
+        height: 0vh;
+        width: 100%;
+        box-shadow: 0px 2px 10px rgb(0, 0, 0);
+    }#logo img{
+        height: 20vh;
+        width: 50%;
+        margin-top: 30px;
+   }
+   .display{
+    display: flex;
+    flex-direction: column;
+    }
+    #side-nav{
+    height: 15vh;
+    width: 97%;
+    box-shadow: 0px 2px 10px green;
+    margin-top: 170px;
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    }
+    .list {
+        margin-left: -80px;
+        display: flex;
+        gap: 38px;
+        flex-direction: row;
+    }
+    .list a {
+        background: none;
+        font-size: 12px;
+        transform: translate(140px,20px);
+    }
+    .list :hover {
+        background-color: transparent;
+        color: green;
+    }
+   .write p{
+    font-size: 12px;
+    margin-top: 70px;
+    font-style: italic;
+    text-shadow: 0px 2px 10px rgb(0, 0, 0);
+    text-align: center;
+    }
+    #back2 img{
+        margin-top: 100px;
+        height: 45vh;
+        width:70%;
+        margin-left: 20%;
+        border-radius: 5px;
+        box-shadow: 0px 2px 10px rgb(0, 0, 0);
+    }
+    #back img {
+        display: none;
+        height: 55vh;
+        width: 110%;
+        margin-left: 30%;
+        border-radius: 5px;
+        box-shadow: 0px 2px 10px rgb(0, 0, 0);
+    }
+    .dpt{
+        height:50vh;
+        width: 50%;
+        background-color: rgb(170, 167, 167);
+        margin-top: 10%;
+        margin-left: -30px;
+        box-shadow: none;
+        margin-left: 30px;
+        border-radius: 5px; 
+    }
+    .dpt i {
+        border-bottom: 1px solid black;
+        font-size: 13px;
+        font-style: italic;
+        margin-left: 55px;
+        font-weight: bold;
+    }
+    #courses button{
+        font-size: 18px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: oblique;
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-top: 15px;
+        background: none;
+        border: 0px;
+        cursor: pointer;
+    }
+    #courses :hover{
+        background-color: rgb(204, 195, 195);
+    }
+    #details1,#details2,#details3,#details4,#details5,#details6,#details7 {
+          width: 55%;
+          margin-right: -100px;
+          border-radius: 5px;
+          margin-left: -30px;
+          height: 50vh;
+          box-shadow: none;
+    }
+    #courses button{
+        font-size: 12px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: oblique;
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-top: 15px;
+        background: none;
+        border: 0px;
+        cursor: pointer;
+    }
+    #courses :hover{
+        background-color: rgb(204, 195, 195);
+    }
+    #note {
+        font-size: 12px;
+    }
+    .info li {
+       font-size: 14px;
+       list-style: none;
+       margin-bottom: -10px;
+       text-align: center;
+    }
+    #tutors{
+        background-color: gray;
+        height: 60px;
+        width: 50%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+        font-style: italic;
+        font-weight: lighter;
+        margin-left: 30%;
+        margin-top: 10px;
+        border-radius: 5px;
+     }
+     .tutor h1 {
+         color: black;
+         font-size: 20px;
+         font-style: italic;
+         text-shadow: 0px 10px 10px white;
+         text-align: center;
+         font-weight: lighter;
+     }
+     .photo img{
+        height:16vh;
+        width: 130%;
+        border-radius: 50%;
+        margin-top: 20px;
+        border: 1px solid green;
+        margin-left: 20px;
+        box-shadow: none;
+    }
+    .allname h1{
+        font-size:9px;
+        color: black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: lighter;
+        text-align: center;
+        margin-top: 30px;
+        text-shadow: 0px 1px 10px black;
+        margin-right:-65px;
+    }
+    #credited h2{
+        text-align: center;
+        color: black;
+        font-size: 15px;
+        transform: translate(-100px);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        margin-top: -70px;
+        border-bottom: 1px solid black;
+    }
+    .cert h2{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 15px;
+        text-align: center;
+        font-style: italic;
+        margin-top: 5px;
+        font-weight: lighter;
+    }
+    .agencies img{
+        height: 10vh;
+        width: 22%;
+        box-shadow: 0px 2px 10px black;
+        border-radius: 5px;
+    }
+    footer{
+        background-color: black;
+        height: 190vh;
+        width: 120%;
+        
+    }
+    #email p {
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: white;
+        padding: 50px 60px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    #inputflex{
+        display: flex;
+        flex-direction: column;
+    }
+    form{
+    margin-top: 8%;
+    margin-left: 8%;
+    border-bottom: none;
+    }
+    input{
+        padding: 8px;
+        width: 50%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+    }
+    .send button{
+        height: 30px;
+        width:80px;
+        margin-top: 8px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 15px;
+    }
+    .more {
+        display: flex;
+        flex-direction: row;
+    }
+    #extra a{
+        color: white;
+        font-size: 11px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 64px;
+        text-decoration: dashed;
+        cursor: pointer;
+    }
+    .social a{
+        color: white;
+        font-size: 11px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        text-decoration: dashed;
+        cursor: pointer;
+        text-align: center;
+        margin-left: 45%;
+    }
+}
